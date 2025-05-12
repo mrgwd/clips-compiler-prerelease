@@ -5,7 +5,7 @@ import type React from "react";
 import { useState, useRef, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
-import { Play, Send } from "lucide-react";
+import { Play } from "lucide-react";
 
 interface TerminalProps {
   onCommand: (command: string) => void;
@@ -173,7 +173,7 @@ export default function Terminal({ onCommand, output }: TerminalProps) {
                     onClick={() => handleExampleClick('(neq "hello" "world")')}
                     className="block text-blue-400 hover:underline cursor-pointer"
                   >
-                    (neq "hello" "world")
+                    (neq &quot;hello&quot; &quot;world&quot;)
                   </button>
                 </div>
               </div>
@@ -241,8 +241,8 @@ export default function Terminal({ onCommand, output }: TerminalProps) {
                     }
                     className="block text-blue-400 hover:underline cursor-pointer text-xs"
                   >
-                    (if (&gt; 7 5) then (printout t "Greater than 5") else
-                    (printout t "Less than 5"))
+                    (if (&gt; 7 5) then (printout t &quot;Greater than 5&quot;)
+                    else (printout t &quot;Less than 5&quot;))
                   </button>
                 </div>
               </div>
@@ -298,7 +298,7 @@ export default function Terminal({ onCommand, output }: TerminalProps) {
                     }
                     className="block text-blue-400 hover:underline cursor-pointer"
                   >
-                    (printout t "Hello, world!" crlf)
+                    (printout t &quot;Hello, world!&quot; crlf)
                   </button>
                   <button
                     onClick={() =>
@@ -306,7 +306,7 @@ export default function Terminal({ onCommand, output }: TerminalProps) {
                     }
                     className="block text-blue-400 hover:underline cursor-pointer"
                   >
-                    (print "Simple output")
+                    (print &quot;Simple output&quot;)
                   </button>
                 </div>
               </div>
