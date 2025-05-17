@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Clips Compiler
 
-## Getting Started
+A modern web-based CLIPS (C Language Integrated Production System) editor built with Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Clips Compiler is an expert system development tool that provides a user-friendly interface for writing, editing, and testing CLIPS programs. Built as a college project by Mohamed Ramadan, this application serves as a practical implementation of expert systems concepts, offering a modern web-based solution for CLIPS programming.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 📝 CLIPS compiler with easy access
+- 📊 Rule and fact visualization
+- 🎨 Modern, responsive UI
+- ⚡ Fast and efficient processing
+- 🎯 Type-safe development with TypeScript
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Frontend Framework:** Next.js
+- **Programming Language:** TypeScript
+- **Styling:** Tailwind CSS
 
-To learn more about Next.js, take a look at the following resources:
+## Live Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Check out the live version at: [clips-compiler.vercel.app](https://clips-compiler.vercel.app)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## About CLIPS
 
-## Deploy on Vercel
+CLIPS (C Language Integrated Production System) is a public domain software tool for building expert systems. It was developed by NASA's Johnson Space Center and is widely used in artificial intelligence and expert systems education and development.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Development
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project was developed as part of a college assignment in the Expert Systems course, demonstrating the practical implementation of CLIPS programming in a modern web environment. The application serves as both a learning tool and a practical development environment for CLIPS-based expert systems.
+
+## Author
+
+- **Mohamed Ramadan** - _Developer_
+
+## License
+
+This project is created for educational purposes as part of a college assignment.
